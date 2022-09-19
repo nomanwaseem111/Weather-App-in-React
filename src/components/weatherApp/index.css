@@ -23,3 +23,32 @@ h1{
 .btn{
 margin-left: 620px;
 }
+
+
+@media (max-width: 360px) {
+
+    .main{
+        display: flex;
+        display: inline-block;
+        margin-left: 30px;
+        flex-wrap: wrap;
+        width: 300px;
+        padding-left: 20px;
+        margin: 20px 0px 20px 20px;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        margin-top: 40px !important;
+    }
+    
+    .input{
+        width: 200px !important;
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+    .btn{
+    margin-left: 120px;
+    }
+}
